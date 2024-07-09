@@ -1,6 +1,6 @@
- SIMPLE unstady algorithm based CFD solver in Rust
+ SIMPLE algorithm based CFD unsteady solver in Rust
 
-This project is a computational fluid dynamics (CFD) solver written in Rust and post-processed with matplotlib, using the SIMPLE algorithm with a collocated grid to integrate the 2D incompressible unsteady Navier-Stokes equations. This project is based on the [lectures by Dr. Sandip Mazumder](https://youtube.com/playlist?list=PLVuuXJfoPgT4gJcBAAFPW7uMwjFKB9aqT). It can solve three cases: the lid-driven cavity flow, the pipe flow with a velocity inlet/gauge pressure outlet, and the backward facing step flow.
+This project is a computational fluid dynamics (CFD) solver written in Rust and post-processed with matplotlib, using the SIMPLE algorithm with a collocated grid to integrate the 2D incompressible unsteady Navier-Stokes equations. This project is based on the [lectures by Dr. Sandip Mazumder](https://youtube.com/playlist?list=PLVuuXJfoPgT4gJcBAAFPW7uMwjFKB9aqT). It can solve four cases: the lid-driven cavity flow, the pipe flow with a velocity inlet/gauge pressure outlet, the backward facing step flow and a square cylinder.
 
 ## Usage
 
